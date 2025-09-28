@@ -65,8 +65,8 @@ function MessageInput() {
         </div>
       )}
 
-      <form onSubmit={handleSendMessage} className="max-w-3xl mx-auto flex space-x-4">
-        <input
+      <form onSubmit={handleSendMessage} className="max-w-3xl mx-auto flex space-x-4 text-slate-300 bg-gradient-to-r">
+        <input 
           type="text"
           value={text}
           onChange={(e) => {
